@@ -1,3 +1,16 @@
+@font-face {
+  font-display: swap;
+  font-family: NotoSans;
+  font-style: normal;
+  font-weight: 400;
+  src: local('NotoSans'), url('../fonts/NotoSans.woff') format('woff');
+}
+
 html {
   overflow-y: auto;
+}
+
+html,
+body {
+  font-family: $body-font-family;
 }
